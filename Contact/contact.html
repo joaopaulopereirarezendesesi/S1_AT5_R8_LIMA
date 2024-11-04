@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>Home</li>
+        <li>Marketplace</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/8/8c/SENAI_S%C3%A3o_Paulo_logo.png"
+        alt="Imagem SENAI"
+      />
+    </header>
+    <main>
+      <form action="">
+        <h1>Formulário de Cadastro</h1>
+
+        <div class="nomeEmail">
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+        </div>
+
+        <div>
+          <label for="telefone">Telefone</label>
+          <input type="tel" name="telefone" id="telefone" />
+        </div>
+
+        <div>
+          <label for="msg">Mensagem</label>
+          <textarea name="msg" id="msg" rows="8"></textarea>
+        </div>
+
+        <input class="btn" type="submit" value="Enviar" />
+      </form>
+    </main>
+    <footer>
+      <section class="esquerda">
+        <h3>Links</h3>
+        <ul>
+          <li>Home</li>
+          <li>Marketplace</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </section>
+      <section class="meio">
+        <h3>Suporte</h3>
+        <ul>
+          <li>FAQ</li>
+          <li>Como funciona</li>
+          <li>Regras de devolução</li>
+        </ul>
+      </section>
+      <section class="direita">
+        <h3>Nosso contato</h3>
+        <ul>
+          <li>Telefone: (00) 1234-5678</li>
+          <li>Email: contato@exemplo.com</li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
