@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+
+  & header {
+    height: 15%;
+    background-color: gray;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+
+    & img {
+      max-width: 250px;
+      max-height: 200px;
+    }
+
+    & ul {
+      display: flex;
+      gap: 10px;
+      color: red;
+    }
+  }
+
+  & main {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 70px;
+
+    & .card {
+      border-radius: 5px;
+      border: 2px solid red;
+      height: 50px;
+      width: 40%;
+      background-color: #fff;
+    }
+  }
+
+  & footer {
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 10px;
+
+    & li {
+        color: white;
+    }
+
+    & h3 { 
+        color: red;
+    }
+  }
+}
