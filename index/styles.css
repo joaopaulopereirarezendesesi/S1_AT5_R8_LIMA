@@ -25,6 +25,10 @@ body {
       display: flex;
       gap: 10px;
       color: red;
+      
+      & li {
+        font-size: 10px;
+      }
     }
   }
 
@@ -54,11 +58,11 @@ body {
     padding: 10px;
 
     & li {
-        color: white;
+      color: white;
     }
 
-    & h3 { 
-        color: red;
+    & h3 {
+      color: red;
     }
   }
 }
